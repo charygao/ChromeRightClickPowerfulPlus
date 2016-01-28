@@ -1,0 +1,23 @@
+{
+"update_url": "http://www.cnblogs.com/Chary/p/No000080.html",
+"browser_action": {
+    "default_icon": "icons/icon_32.png",
+    "default_title": "右键解锁增强版"
+   },
+"version":"2.0",
+"description": "Allow selecting, copying, pasting and right clicking in some restricted pages.URL = http://www.cnblogs.com/Chary/p/No000080.html",
+"icons": {
+      "48": "icons/icon_48.png",
+      "32": "icons/icon_32.png",
+      "16": "icons/icon_16.png"
+},
+   "name": "右键解锁",
+ "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["runit.js"],
+    "persistent": false
+  },
+   "manifest_version": 2
+}
